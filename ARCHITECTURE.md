@@ -10,6 +10,7 @@ The ToDoListApp is a web-based application that allows users to create, update, 
 
 ### 2. Backend:
 - **Framework**: Node.js with Express.js for creating RESTful APIs.
+- **Architecture**: Modular architecture following the MVC design pattern to separate concerns and improve maintainability.
 - **Authentication**: JSON Web Tokens (JWT) for secure user authentication.
 - **Service Layer**: Business logic handling for task management.
 
@@ -62,3 +63,7 @@ The ToDoListApp is a web-based application that allows users to create, update, 
 - Ensure code quality through code reviews and automated testing.
 - Use environment variables for configuration management.
 - Implement logging and monitoring for system performance tracking.
+- Introduce security measures such as input validation, authentication protocols, and authorization mechanisms to safeguard user data.
+- Optimize data flow and processing by considering caching strategies for frequently accessed data.
+- Include a versioning strategy for APIs to ensure backward compatibility as the application evolves.
+- Consider including clear diagrams or flowcharts to visually represent system components and their interactions in future documentation.
